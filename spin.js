@@ -2,7 +2,7 @@ const wheel = document.getElementById("wheel");
 const selectedName = document.getElementById("selectedName");
 let names = [];
 
-fetch('https://raw.githubusercontent.com/username/repository-name/main/names.json')
+fetch('https://raw.githubusercontent.com/WeaselStorm/whatevernonsense/main/names.json')
     .then(response => response.json())
     .then(data => {
         names = data;
